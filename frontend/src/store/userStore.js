@@ -4,6 +4,7 @@ import toast from 'react-hot-toast'
 export const userStore=create((set)=>({
     user:null,
     isSigningUp:false,
+    isCheckingUser:false,
     isSigningIn:false,
     signUp:async(data)=>{
       set({isSigningUp:true})
@@ -36,14 +37,18 @@ export const userStore=create((set)=>({
         }
     },
     checkUser:async()=>{
+        set({isCheckingUser:true})
         try {
             const res=await axiosInstance.get('/user/checkuser')
             if(res.data.success){
                 set({user:res.data.data})
+                //console.log(res.data.data)
             }
         } catch (error) {
             console.log(error?.message)
             toast.error(error?.response?.data?.message)
+        }finally{
+            set({isCheckingUser:false})
         }
     }
 }))
