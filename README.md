@@ -1,7 +1,7 @@
 Project Pulse
 
 Project Pulse is a clean and intuitive project management dashboard that allows users to easily publish projects, track progress, update statuses, and remove outdated items. 
-It is designed to be fast, responsive, and simple to use—giving users a smooth experience across all devices.
+It is designed to be fast, responsive, and simple to use, giving users a smooth experience across all devices.
 
 🚀 Tech Stack
  Frontend
