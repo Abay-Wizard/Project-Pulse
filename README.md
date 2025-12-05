@@ -1,42 +1,43 @@
 Project Pulse
 
-Project Pulse is a clean and intuitive project management dashboard that allows users to easily publish projects, track progress, update statuses, and remove outdated items. It is designed to be fast, responsive, and simple to use—giving users a smooth experience across all devices.
+Project Pulse is a clean and intuitive project management dashboard that allows users to easily publish projects, track progress, update statuses, and remove outdated items. 
+It is designed to be fast, responsive, and simple to use—giving users a smooth experience across all devices.
 
 🚀 Tech Stack
-Frontend
+ Frontend
 
-React.js – UI development
+> React.js – UI development
 
-Tailwind CSS – Modern, utility-first styling
+> Tailwind CSS – Modern, utility-first styling
 
 Backend
 
-Node.js & Express.js – REST API
+> Node.js & Express.js – REST API
 
-MongoDB – Database for storing project data
+> MongoDB – Database for storing project data
 
 Testing
 
-Jest + React Testing Library – Unit and component tests
+> Jest – Unit and component tests
 
 Deployment
 
-Frontend: Vercel
+> Frontend: Vercel
 
-Backend: Render
+> Backend: Render
 
 Live hosting: AWS
 
 ✨ Features
 
-Publish unlimited projects
+> Publish unlimited projects
 
-Update project status (Not Started / In Progress / Completed)
+> Update project status (Not Started / In Progress / Completed)
 
-Delete outdated or unnecessary projects
+> Delete outdated or unnecessary projects
 
-Responsive dashboard for desktop & mobile
+> Responsive dashboard for desktop & mobile
 
-Real-time UI updates
+> Real-time UI updates
 
-Persistent data storage with MongoDB
+> Persistent data storage with MongoDB
