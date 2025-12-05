@@ -19,6 +19,13 @@ function App() {
     checkUser()
   },[])
 
+  useEffect(() => {
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+  }, []);
+
+
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar/>

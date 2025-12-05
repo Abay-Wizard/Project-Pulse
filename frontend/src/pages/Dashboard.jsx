@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Edit, Trash2, PlusCircle, Loader } from 'lucide-react'
 import { userStore } from '../store/userStore'
@@ -102,11 +102,11 @@ const Dashboard = () => {
             </div>
 
             <div className="mt-2">
-              <h2 className="text-xl font-bold text-purple-700 mb-2 pr-10">
+              <h2 className="text-xl font-bold text-purple-700 mb-2 pr-10 wrap-break-word">
                 {project.projectName}
               </h2>
 
-              <p className="text-gray-700 text-sm mb-4">
+              <p className="text-gray-700 text-sm mb-4 wrap-break-word whitespace-pre-line">
                 {project.description}
               </p>
 
