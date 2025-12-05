@@ -17,6 +17,10 @@ Backend
 
 > MongoDB – Database for storing project data
 
+Authentication
+
+> JWT
+
 Deployment
 
 > Frontend: Vercel
