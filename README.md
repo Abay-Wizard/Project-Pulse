@@ -4,6 +4,7 @@ Project Pulse is a clean and intuitive project management dashboard that allows 
 It is designed to be fast, responsive, and simple to use, giving users a smooth experience across all devices.
 
 🚀 Tech Stack
+
  Frontend
 
 > React.js – UI development
