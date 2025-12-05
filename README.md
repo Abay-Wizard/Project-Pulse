@@ -17,10 +17,6 @@ Backend
 
 > MongoDB – Database for storing project data
 
-Testing
-
-> Jest – Unit and component tests
-
 Deployment
 
 > Frontend: Vercel
