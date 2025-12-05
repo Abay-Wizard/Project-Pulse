@@ -22,8 +22,10 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await signUp(data);
-      navigate("/signin");
+     const res= await signUp(data);
+      if(res){
+        navigate("/signin");
+      }
     } catch (error) {
       console.log(error?.message);
     }

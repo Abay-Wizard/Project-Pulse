@@ -13,6 +13,7 @@ export const userStore=create((set)=>({
        if(res.data.success){
         set({user:res.data.data})
         toast.success(res.data.message)
+        return true
        }
       } catch (error) {
         console.log(error?.message)
