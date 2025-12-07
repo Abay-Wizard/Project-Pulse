@@ -1,8 +1,6 @@
 {
   "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://project-pulse-1-bd4l.onrender.com/:path*"
-    }
+    { "source": "/api/:path*", "destination": "https://project-pulse-1-bd4l.onrender.com/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
